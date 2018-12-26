@@ -1,1 +1,2 @@
 # Matrix Library
+While working on the n-dimensional projection project I realized that I needed to calculate inverses of matrices.  I coded this mainly as an exersize in matrix algebra.  It's not as fast as it could possibly be, to invert matrices it uses a an adjugate matrix method.  This is slow since the determinant method is called so many times in generating the matrix of minor.  The determinant method uses the recursive method to calculate the determinant!  These are fast enough for my purposes, but I may go back in the future to make it faster.
